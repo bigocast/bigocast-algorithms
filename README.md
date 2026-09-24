@@ -8,6 +8,7 @@ inputs, and follow the same decisions explained in the videos.
 | Category | Lesson | What you can try |
 | --- | --- | --- |
 | Graph search | [A* foundations](graphs/a_star/foundations/) | Find a shortest route around a wall, then try an open floor. |
+| Data structures | [Bloom Filter](data_structures/bloom_filter/foundations/) | Reproduce a real false positive, a definite absence, and the unsafe deletion example. |
 
 ## Run an example
 
