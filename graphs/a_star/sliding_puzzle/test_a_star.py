@@ -52,6 +52,15 @@ class PuzzleTests(unittest.TestCase):
             a.GOAL,
         ])
 
+    def test_exact_two_move_tile_example(self):
+        self.assertEqual(a.manhattan(a.TWO_MOVE_EXAMPLE), 2)
+        self.assertEqual(self.distance[a.TWO_MOVE_EXAMPLE], 2)
+        self.assertEqual(a.a_star(a.TWO_MOVE_EXAMPLE), [
+            a.TWO_MOVE_EXAMPLE,
+            (1, 2, 3, 4, 5, 6, 7, 0, 8),
+            a.GOAL,
+        ])
+
     def test_one_shortest_solution_at_every_depth(self):
         examples = {}
         for board, depth in self.distance.items():

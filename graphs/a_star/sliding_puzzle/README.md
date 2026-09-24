@@ -3,11 +3,12 @@
 BigOCast | Moein
 
 Find a shortest sequence of slides for the classic 3-by-3 puzzle. This companion
-contains the complete search from the long lesson and the four-move and three-move
-boards used across its examples. For the earlier grid-pathfinding lesson, see
+contains the complete search from the long lesson and its four-move board, plus
+the three-move and two-move boards from the two Shorts. For the earlier
+grid-pathfinding lesson, see
 [A* foundations](../foundations/).
 
-## Run both examples
+## Run all three examples
 
 Use Python 3.10 or newer. No third-party packages are required. From the repository root:
 
@@ -35,7 +36,18 @@ Fewest moves: 3
 1: 1 2 3 / 4 _ 5 / 7 8 6
 2: 1 2 3 / 4 5 _ / 7 8 6
 3: 1 2 3 / 4 5 6 / 7 8 _
+
+Two-move tile example
+Initial Manhattan estimate: 2
+Fewest moves: 2
+0: 1 2 3 / 4 5 6 / _ 7 8
+1: 1 2 3 / 4 5 6 / 7 _ 8
+2: 1 2 3 / 4 5 6 / 7 8 _
 ```
+
+In the second Short's `TWO_MOVE_EXAMPLE`, tile `7` slides left into the blank,
+then tile `8` slides left to finish the puzzle. The returned path includes all
+three boards: the start, the board after sliding `7`, and the goal.
 
 ## Board and return contract
 
@@ -135,7 +147,7 @@ are not bounds in the number of tiles for a variable-size puzzle.
 - Swap `7` and `8` in the goal. That valid board is unsolvable and returns `None`.
 - Try another board through `a_star(parse_input("1 2 3 / 4 0 6 / 7 5 8"))`.
 - Before running a new board, predict its Manhattan estimate. It can be smaller
-  than the true remaining distance even though it is exact in the two examples.
+  than the true remaining distance even though it is exact in these three examples.
 
 ## Check correctness
 

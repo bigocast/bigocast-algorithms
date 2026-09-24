@@ -1,7 +1,7 @@
 """BigOCast | Moein: A* Search: Solve a Sliding Puzzle.
 
 One state is a whole three-by-three board; zero is its single empty space.
-Run this file for the four-move lesson and the three-move estimate example.
+Run this file for the four-move lesson and both Shorts' three- and two-move examples.
 The a_star entry point validates input; the small board helpers expect an
 already validated board.
 """
@@ -13,6 +13,7 @@ from itertools import count
 GOAL = (1, 2, 3, 4, 5, 6, 7, 8, 0)
 START = (1, 2, 3, 5, 0, 6, 4, 7, 8)
 ESTIMATE_EXAMPLE = (1, 2, 3, 4, 8, 5, 7, 0, 6)
+TWO_MOVE_EXAMPLE = (1, 2, 3, 4, 5, 6, 0, 7, 8)
 
 
 # Normalize the caller's iterable once; lower-level helpers assume a valid board.
@@ -112,6 +113,7 @@ if __name__ == "__main__":
     for name, start in (
         ("Four-move puzzle", START),
         ("Three-move estimate example", ESTIMATE_EXAMPLE),
+        ("Two-move tile example", TWO_MOVE_EXAMPLE),
     ):
         path = a_star(start)
         print(name)
