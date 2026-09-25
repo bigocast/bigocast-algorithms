@@ -9,6 +9,7 @@ inputs, and follow the same decisions explained in the videos.
 | --- | --- | --- |
 | Graph search | [A* foundations](graphs/a_star/foundations/) | Find a shortest route around a wall, then try an open floor. |
 | Graph search | [A* sliding puzzle](graphs/a_star/sliding_puzzle/) | Solve the classic 3-by-3 puzzle in the fewest slides, with three complete examples. |
+| Trees | [BFS foundations](trees/bfs/foundations/) | Read each level in child-list order, with three complete examples and a waiting-queue checkpoint. |
 | Data structures | [Bloom Filter](data_structures/bloom_filter/foundations/) | Reproduce a real false positive, a definite absence, and the unsafe deletion example. |
 
 ## Run an example
