@@ -12,6 +12,7 @@ inputs, and follow the same decisions explained in the videos.
 | Trees | [BFS foundations](trees/bfs/foundations/) | Read each level in child-list order, with three complete examples and a waiting-queue checkpoint. |
 | Trees | [BFS printing](trees/bfs/printing/) | Print a five-node tree level by level, then try empty, singleton and wide trees. |
 | Data structures | [Bloom Filter](data_structures/bloom_filter/foundations/) | Reproduce a real false positive, a definite absence, and the unsafe deletion example. |
+| Data structures | [LRU Cache](data_structures/lru_cache/foundations/) | Follow picture requests, inspect hits and misses, move linked nodes, and reproduce the all-miss cycle. |
 
 ## Run an example
 
