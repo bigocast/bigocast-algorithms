@@ -22,11 +22,15 @@ class Node:
 
 class LRUCache:
     def __init__(self, capacity):
-        if isinstance(capacity, bool) or not isinstance(capacity, int) or capacity < 1:
+        if (
+            isinstance(capacity, bool)
+            or not isinstance(capacity, int)
+            or capacity < 1
+        ):
             raise ValueError("Capacity must be a positive integer.")
         self.capacity = capacity
         self.nodes = {}
-        # Permanent endpoints are not cached entries and do not use capacity.
+        # Endpoints are not entries and do not use capacity.
         self.head = Node(None, None)
         self.tail = Node(None, None)
         self.head.next = self.tail
@@ -44,7 +48,7 @@ class LRUCache:
         self.tail.prev = node
 
     def get(self, key):
-        node = self.nodes[key]  # A missing key raises before changing any links.
+        node = self.nodes[key]
         self._unlink(node)
         self._append(node)
         return node.value
