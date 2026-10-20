@@ -14,6 +14,7 @@ inputs, and follow the same decisions explained in the videos.
 | Data structures | [Bloom Filter](data_structures/bloom_filter/foundations/) | Reproduce a real false positive, a definite absence, and the unsafe deletion example. |
 | Data structures | [LRU Cache](data_structures/lru_cache/foundations/) | Follow picture requests, inspect hits and misses, move linked nodes, and reproduce the all-miss cycle. |
 | Data structures | [LRU API cache](data_structures/lru_cache/api_cache/) | Serve real SQLite product records, count executed queries, and compare a three-slot cache with a four-product cycle. |
+| Data structures | [LRU shopping cache](data_structures/lru_cache/shopping/) | Compare LRU with FIFO, follow node-preserving updates, and test zero capacity. |
 
 ## Run an example
 
