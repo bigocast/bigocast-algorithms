@@ -15,6 +15,7 @@ inputs, and follow the same decisions explained in the videos.
 | Data structures | [LRU Cache](data_structures/lru_cache/foundations/) | Follow picture requests, inspect hits and misses, move linked nodes, and reproduce the all-miss cycle. |
 | Data structures | [LRU API cache](data_structures/lru_cache/api_cache/) | Serve real SQLite product records, count executed queries, and compare a three-slot cache with a four-product cycle. |
 | Data structures | [LRU shopping cache](data_structures/lru_cache/shopping/) | Compare LRU with FIFO, follow node-preserving updates, and test zero capacity. |
+| Data structures | [LRU three-slot walkthrough](data_structures/lru_cache/three_slot_walkthrough/) | Trace every helper, update and eviction, with space freed before insertion. |
 
 ## Run an example
 
