@@ -16,6 +16,7 @@ inputs, and follow the same decisions explained in the videos.
 | Data structures | [LRU API cache](data_structures/lru_cache/api_cache/) | Serve real SQLite product records, count executed queries, and compare a three-slot cache with a four-product cycle. |
 | Data structures | [LRU shopping cache](data_structures/lru_cache/shopping/) | Compare LRU with FIFO, follow node-preserving updates, and test zero capacity. |
 | Data structures | [LRU three-slot walkthrough](data_structures/lru_cache/three_slot_walkthrough/) | Trace every helper, update and eviction, with space freed before insertion. |
+| Data structures | [Cache Lab shopping Shorts](data_structures/cache_policies/shopping_shorts/) | Run seven independent examples of hits/misses, FIFO/LRU/LFU, thrashing and stale-price invalidation. |
 
 ## Run an example
 
