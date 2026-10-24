@@ -7,6 +7,7 @@ inputs, and follow the same decisions explained in the videos.
 
 | Category | Lesson | What you can try |
 | --- | --- | --- |
+| Graph search | [Dijkstra delivery route](graphs/dijkstra/delivery/) | Solve the five-place delivery map, then test ties, zero-cost cycles, unreachable goals, and the nonnegative contract. |
 | Graph search | [A* foundations](graphs/a_star/foundations/) | Find a shortest route around a wall, then try an open floor. |
 | Graph search | [A* sliding puzzle](graphs/a_star/sliding_puzzle/) | Solve the classic 3-by-3 puzzle in the fewest slides, with three complete examples. |
 | Trees | [BFS foundations](trees/bfs/foundations/) | Read each level in child-list order, with three complete examples and a waiting-queue checkpoint. |
