@@ -13,6 +13,7 @@ inputs, and follow the same decisions explained in the videos.
 | Trees | [BFS foundations](trees/bfs/foundations/) | Read each level in child-list order, with three complete examples and a waiting-queue checkpoint. |
 | Trees | [BFS printing](trees/bfs/printing/) | Print a five-node tree level by level, then try empty, singleton and wide trees. |
 | Data structures | [Bloom Filter](data_structures/bloom_filter/foundations/) | Reproduce a real false positive, a definite absence, and the unsafe deletion example. |
+| Data structures | [Top K: three largest files](data_structures/top_k/three_largest_files/) | Stream ten file records through a heap of three, then test ties, empty inputs and arbitrary capacities. |
 | Data structures | [LRU Cache](data_structures/lru_cache/foundations/) | Follow picture requests, inspect hits and misses, move linked nodes, and reproduce the all-miss cycle. |
 | Data structures | [LRU API cache](data_structures/lru_cache/api_cache/) | Serve real SQLite product records, count executed queries, and compare a three-slot cache with a four-product cycle. |
 | Data structures | [LRU shopping cache](data_structures/lru_cache/shopping/) | Compare LRU with FIFO, follow node-preserving updates, and test zero capacity. |
