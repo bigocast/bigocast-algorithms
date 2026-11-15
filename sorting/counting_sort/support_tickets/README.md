@@ -59,3 +59,26 @@ input, unused priorities and all 3,280 priority sequences of lengths 0 through 7
 against Python's stable reference sort.
 
 More visual lessons: [bigocast.com](https://bigocast.com).
+
+## The two Short examples
+
+Run the exact smaller inputs used in the portrait mini-lessons:
+
+```sh
+python3 sorting/counting_sort/support_tickets/short_examples.py
+```
+
+**Counts become places:** Password reset (2), Payment failed (1), Update email
+(2). The counts are `[1, 2]`; cumulative group ends are `[1, 3]`. Reading backward
+places Update email in space 3, Payment failed in space 1, then Password reset in
+space 2. These are one-based physical spaces in the visual explanation. The
+function converts to zero-based indexes by decrementing before each write.
+
+**Why read backward?** Payment failed arrives before App won't open; both have
+priority 1. The group has two spaces. Reading forward while filling from space 2
+would put Payment in space 2 and App in space 1, reversing arrival order. Reading
+backward puts App in space 2 and Payment in space 1. This explains the pairing of
+backward input traversal with decreasing group-end positions; it does not claim
+that all stable Counting Sort implementations must read backward.
+
+The Shorts and full tutorial do not yet have public video links.

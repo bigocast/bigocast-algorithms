@@ -38,6 +38,21 @@ class CountingSortTests(unittest.TestCase):
         tickets = [{"priority": 4, "subject": "Z"}, {"priority": 1, "subject": "Q"}, {"priority": 4, "subject": "A"}]
         self.assertEqual(counting_sort(tickets, 8), [tickets[1], tickets[0], tickets[2]])
 
+    def test_counts_short_keeps_the_normal_requests_in_arrival_order(self):
+        from short_examples import COUNTS_EXAMPLE
+        result = counting_sort(COUNTS_EXAMPLE, 2)
+        self.assertEqual([t["subject"] for t in result], [
+            "Payment failed", "Password reset", "Update email",
+        ])
+        self.assertIs(result[1], COUNTS_EXAMPLE[0])
+        self.assertIs(result[2], COUNTS_EXAMPLE[2])
+
+    def test_stability_short_keeps_the_earlier_urgent_request_first(self):
+        from short_examples import STABILITY_EXAMPLE
+        result = counting_sort(STABILITY_EXAMPLE, 1)
+        self.assertIs(result[0], STABILITY_EXAMPLE[0])
+        self.assertIs(result[1], STABILITY_EXAMPLE[1])
+
     def test_empty_input(self):
         self.assertEqual(counting_sort([], 0), [])
         self.assertEqual(counting_sort([], 3), [])
