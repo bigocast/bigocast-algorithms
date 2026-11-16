@@ -7,6 +7,7 @@ inputs, and follow the same decisions explained in the videos.
 
 | Category | Lesson | What you can try |
 | --- | --- | --- |
+| Sorting | [Quick Sort and Quickselect](sorting/quick_sort/foundations/) | Partition one array, follow recursive sorting, and find a rank with duplicates. |
 | Sorting | [Bubble Sort](sorting/bubble_sort/foundations/) | Follow the largest value through a pass, compare early stopping, and test equal values and empty input. |
 | Sorting | [Counting Sort: support tickets](sorting/counting_sort/support_tickets/) | Sort whole requests by priority while keeping equal priorities in arrival order; reproduce the video example and test stability. |
 | Sorting | [Counting Sort](sorting/counting_sort/foundations/) | Keep original labelled cards through counting, prefix sums and stable placement; test duplicates, missing keys and empty input. |

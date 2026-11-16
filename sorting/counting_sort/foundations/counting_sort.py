@@ -2,6 +2,10 @@
 
 BigOCast | Moein
 
+Tutorial and visualiser: https://bigocast.com/learn/counting-sort
+YouTube channel: https://www.youtube.com/@bigocast
+A matching public video has not been released yet.
+
 Precondition: K is a nonnegative integer and every key is in range(K).
 The payload is carried unchanged; it is never used as a secondary sort key.
 """
