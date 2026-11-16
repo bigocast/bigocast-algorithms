@@ -3,7 +3,10 @@
 The runnable Python companion to [BigOCast’s Quick Sort lesson](https://bigocast.com/learn/quick-sort).
 Use the lesson for the worked example, interactive partition and call tree.
 [BigOCast on YouTube](https://www.youtube.com/@bigocast) has more visual explanations;
-the matching Quick Sort video is not public yet.
+the [matching Quick Sort video](https://youtu.be/gQvo6zioDfw) is scheduled for
+17 November 2026, 10:00 UK time. Its link becomes playable after release.
+The partition uses the video’s `a`, `lo`, `hi`, `boundary` and `scan` names.
+Default bounds are a convenience; Quickselect is an extension beyond the video.
 
 ## Run it
 

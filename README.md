@@ -7,6 +7,14 @@ inputs, and follow the same decisions explained in the videos.
 
 | Category | Lesson | What you can try |
 | --- | --- | --- |
+| Sorting | [Selection Sort](sorting/selection_sort/foundations/) | Run the lesson example and verify it against exhaustive small inputs. |
+| Sorting | [Insertion Sort](sorting/insertion_sort/foundations/) | Run the lesson example and verify it against exhaustive small inputs. |
+| Sorting | [Gnome Sort](sorting/gnome_sort/foundations/) | Run the lesson example and verify it against exhaustive small inputs. |
+| Sorting | [Merge Sort](sorting/merge_sort/foundations/) | Run the lesson example and verify it against exhaustive small inputs. |
+| Sorting | [Heap Sort](sorting/heap_sort/foundations/) | Run the lesson example and verify it against exhaustive small inputs. |
+| Sorting | [Radix Sort](sorting/radix_sort/foundations/) | Run the lesson example and verify it against exhaustive small inputs. |
+| Sorting | [Bucket Sort](sorting/bucket_sort/foundations/) | Run the lesson example and verify it against exhaustive small inputs. |
+| Sorting | [Timsort ideas](sorting/timsort/foundations/) | Run the lesson example and verify it against exhaustive small inputs. |
 | Sorting | [Quick Sort and Quickselect](sorting/quick_sort/foundations/) | Partition one array, follow recursive sorting, and find a rank with duplicates. |
 | Sorting | [Bubble Sort](sorting/bubble_sort/foundations/) | Follow the largest value through a pass, compare early stopping, and test equal values and empty input. |
 | Sorting | [Counting Sort: support tickets](sorting/counting_sort/support_tickets/) | Sort whole requests by priority while keeping equal priorities in arrival order; reproduce the video example and test stability. |

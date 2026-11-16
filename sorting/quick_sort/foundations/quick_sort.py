@@ -4,7 +4,8 @@ BigOCast | Moein
 
 Tutorial and visualiser: https://bigocast.com/learn/quick-sort
 YouTube channel: https://www.youtube.com/@bigocast
-A matching public video has not been released yet.
+Video: https://youtu.be/gQvo6zioDfw
+Scheduled for 17 November 2026, 10:00 UK time.
 
 All functions rearrange the supplied list. Bounds are inclusive and comparisons
 use strict <. This teaching version is not stable and has O(n**2) worst-case time.

@@ -1,5 +1,10 @@
 """Stable Counting Sort for the BigOCast support-ticket lesson, by Moein.
 
+Tutorial and adjustable visualiser: https://bigocast.com/learn/counting-sort
+Video: https://youtu.be/EdQHMAcq0yc
+Scheduled for 23 November 2026, 10:00 UK time.
+YouTube channel: https://www.youtube.com/@bigocast
+
 Precondition: levels is a nonnegative integer. Each ticket has an integer
 priority between 1 and levels. No validation is included in the teaching code.
 """
